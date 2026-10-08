@@ -13,7 +13,7 @@ class HamsterGacha extends StatefulWidget {
 class _HamsterGachaState extends State<HamsterGacha> {
   int n = 0, e = 0;
   bool loading = false;
-  final emojis = ['🐱', '🐾', '😺', '✨'];
+  final emojis = ['🐈‍⬛', '🐾', '🐈‍⬛', '🐾'];
   final images = [
     'images/adel-grober-GqNmg3BRFXA-unsplash.jpg',
     'images/alexandra-leru-ESZeCN254sM-unsplash.jpg',
@@ -53,7 +53,8 @@ class _HamsterGachaState extends State<HamsterGacha> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('🐱 Cat Gacha')),
+    backgroundColor: const Color.fromARGB(255, 33, 32, 32),
+    appBar: AppBar(title: const Text('🐈‍⬛ Cat Gacha')),
     body: Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
